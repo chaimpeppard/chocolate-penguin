@@ -1,0 +1,8 @@
+C:\Users\chaim\OneDrive\Desktop\PCS\PCS Homework\WEB_HOMEWORK>     this is the directory
+
+trying to get gitignore to WORK: echo. > .gitignore
+
+
+save hw tonight into hw51 folder in html hw folder
+
+directory and folder are the same thing
