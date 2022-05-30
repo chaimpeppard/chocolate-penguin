@@ -6,3 +6,22 @@ trying to get gitignore to WORK: echo. > .gitignore
 save hw tonight into hw51 folder in html hw folder
 
 directory and folder are the same thing
+
+git config --global user.email chaimpeppard.swe@gmail.com
+git config --global user.name "Chaim Peppard"
+
+
+HERE IS MY GITHUB ADDRESS
+https://github.com/chaimpeppard/chocolate-penguin
+
+
+I ADDED MY GITHUB
+git git remote add origin https://github.com/chaimpeppard/chocolate-penguin.git
+git branch -M main
+git push -u origin main
+
+
+HOW TO DO GIT PULL FROM PROF
+C:\Users\chaim\OneDrive\Desktop\PCS\PCS Classes 2021-2022\SLubowsky>cd class
+
+C:\Users\chaim\OneDrive\Desktop\PCS\PCS Classes 2021-2022\SLubowsky\class>git pull
