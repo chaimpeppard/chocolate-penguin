@@ -18,7 +18,7 @@ https://github.com/chaimpeppard/chocolate-penguin
 I ADDED MY GITHUB
 git git remote add origin https://github.com/chaimpeppard/chocolate-penguin.git
 git branch -M main
-git push -u origin main
+git push -u origin main 
 
 
 HOW TO DO GIT PULL FROM PROF
