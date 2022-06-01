@@ -22,6 +22,8 @@ CLONING:
 
 How to pull Lubowsky files?
 
+git status- whats happening
 
+need QUOTES around the message with the commit, if its a string
 
 
