@@ -1,0 +1,37 @@
+
+
+ header{
+     text-align:center;
+     border: 20px double crimson;
+     border-radius:65px;
+     padding: 20px;
+     
+ }
+ h1{
+    font-size: 36px;
+    
+    margin-bottom: 0px;
+ }
+ body{ 
+     
+     background:
+     linear-gradient(
+         90deg,    #bf9a47 0%,
+                   #ffe233 25%,
+                 #c7801d 50%,
+         #ffe233 75%,
+         #bf9a47 100%
+     );
+     width: 80% 
+ }
+ p, a
+ {
+font-size: 24px;
+ }
+ .menu {
+    font-style: oblique;
+ }
+ .menu p
+ { 
+font-size:16px; 
+ }
