@@ -38,10 +38,10 @@ font-size - e.g px, %, em, rem
 font-style - e.g normal, italic
 font-weight - e.g normal, bold, bolder
 text-align - e.g left, center, right, justify
-border
+border  
 border-radius
 padding
-margin
+margin    
 height and width (you might want to also use box-sizing: border-box...)
 we also saw overflow, when you use height and width you can make it appropriate to set overflow behavior as well.
 So far we have used only 1 type of "selector", the type selector (e.g. p for all paragraphs). Recall also that multiple selectors can be combined for one rule by using a comma between - e.g. header, p {} will apply to both header and p elements and we can also make a selector more specific by combining selectors without the comma, e.g. header p {} will apply only to p that are in a header element. Use some of these rather than all just simple 1 part selectors.
