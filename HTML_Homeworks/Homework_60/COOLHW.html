@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+       grid-template-areas:
+      
+        
+            ". . . . . a a . . . . ."
+            ". . . . . a a . . . . ."
+            ". . . . . a a . . . . ."
+            ". . . . . a a . . . . ."
+            ". . . . . a a . . . . ." 
+            "d d d d d e f b b b b b" 
+            "d d d d d h g b b b b b" 
+            ". . . . . c c . . . . ." 
+            ". . . . . c c . . . . ." 
+            ". . . . . c c . . . . ." 
+            ". . . . . c c . . . . ." 
+            ". . . . . c c . . . . ."; 
+        
+            
+     }
+     .a{
+        grid-area: a;
+        background-color: red;
+     }
+     .b{
+        grid-area: b;
+        background-color: purple;
+     }
+     .c{
+        grid-area: c;
+        background-color: brown;
+     }
+     .d{
+        grid-area: d;
+        background-color: green;
+     }
+     .e{
+        grid-area: e;
+        background-color: red;
+     }
+     .f{
+        grid-area: f;
+        background-color: purple;
+     }
+     .g{
+        grid-area: g;
+        background-color: brown;
+     }
+     .h{
+        grid-area: h;
+        background-color: green;
+     }
+
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="f"></div>
+    <div class="g"></div>
+    <div class="h"></div>
+    
+
+</body>
+</html>
