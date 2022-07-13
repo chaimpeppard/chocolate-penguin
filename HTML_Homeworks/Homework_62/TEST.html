@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="images" href="C:\Users\chaim\OneDrive\Desktop\PCS\PCS Classes 2021-2022\SLubowsky\class\html\62\images">
+    <title>ESTUFF A PCS company</title>
+    <style>
+      @media screen and (min-width: 600px) {
+        body {}
+      body {
+        background-color: white;
+        margin-left: 10%;
+      }
+      body {
+        width: 80%;
+        margin: auto;
+      }
+      ul{
+        width: 80%;
+      }
+
+       
+      #products{
+        margin-top: 20px;
+             
+      }
+      #signup{
+
+      }
+      #financials{
+
+      }
+      #aboutus{
+
+      }
+      tbody td, th, tfoot td:last-child, table{
+        border: 2px solid black;
+        
+      }
+      tbody td:last-child, tfoot td:last-child{
+        color: red;
+
+      }
+      .columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bolder;
+        column-count: 3;
+        justify-content:center;
+        column-gap: 20px;
+        column-rule: 2px solid gray;
+      }
+
+      .column {
+        /*flex: 33.33%;*/
+     
+        
+
+      }
+
+      .contenttext {
+           font-family: Helvetica, Arial, sans-serif;  
+      }
+      
+      .subheaders {
+        font-family: Helvetica, Arial, sans-serif;  
+        font-weight: bolder;
+        margin-left: 0%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        
+      }
+      li {
+       margin-right: 12px;
+      }      
+      a:link {
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+  
+                  }
+
+      nav.navbar{
+        background-color: black;
+        
+        width: 100%;
+        margin: 0;
+        left: 0;
+        top: 0;
+        position:fixed; 
+        
+        color:white;
+        font-family: Helvetica, Arial, sans-serif;  
+        font-size: 15px;
+        padding-left: 7%;
+           
+                  }
+       li
+       {
+        display: inline-block;
+       }
+        
+      div.banner {
+        background-color: lightgray;
+        color: black;
+        font-weight: bold;
+        font-family: Helvetica, arial, sans-serif; 
+        text-align-last: center;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px; 
+        text-transform: uppercase;                 
+       
+        margin: auto;
+        margin-top: 47px;
+        padding: 2em;
+        padding-bottom: 3em;
+        height: 120px;
+        box-sizing: border-box;
+            
+      }
+      div.bannertext {
+          font-size: 13px; 
+          margin-top: 10px; 
+      }
+
+      div.form{
+      margin-top: 100px;
+      margin-left: 350px
+      }
+      
+      div.signmeup {
+        background-color: lightgray;
+        color: black;
+        font-weight: bold;
+        font-family: Helvetica, arial, sans-serif; 
+        text-align-last: center;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px; 
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+                         
+       
+        margin: auto;
+        margin-top: 47px;
+        padding: 2em;
+        padding-bottom: 3em;
+        height: 150px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        height: 10em;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: auto;
+      }
+
+      td,
+     
+
+      td {
+        text-align: right;
+      }
+
+     
+
+    
+      table tbody tr:hover {
+        background-color: lightblue;
+      }
+
+    
+
+      tbody tr:nth-child(odd){
+        background-color: lightgray;
+      }
+
+
+ 
+    </style>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#signup">Sign Up</a></li>
+      <li><a href="#financials">Financials</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+  </nav>
+  
+     <div class="banner"> 
+      <div>estuff
+
+      </div> 
+      <div class="bannertext">A <em>PCS</em> company</div> 
+     </div>
+     
+      <div class="subheaders" id="products">Products</div>
+      <div class="contenttext">Lorem, ipsum dolor sit amet consectetur adipisicing elit.  suscipit quisquam voluptatibus laborum, sunt itaque eos. Vero, earum tenetur saepe a nulla itaque!</div>
+      <div class="subheaders"></div>
+     
+      <div class="columns">
+        <div class="column">
+            <div>Computers</div> <img src="images/macworld.jpg" /*height="100%"*/ alt="computers">
+          </div>
+          <div class="column">
+             <div>Choirs</div><video width="460" height="100%" controls> <source src="media/El_Hanaar_Hazeh.mp4" controls></video>
+          </div>
+          <div class="column">
+            <div>Candy</div> <img src="images/candy.png" alt="candy">
+          </div>
+      </div>
+      <div class="signmeup">
+        <h1 id="signup">Sign Me Up!</h1>
+    
+      <form method="POST" action="foo.php">
+        <label>Name:
+          <input name="first" />
+        </label>
+  
+        
+  
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      
+        
+  
+  
+        <input type="submit" />
+      </form>
+    </div>
+    </div>
+    <h1 id="financials">Financials</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta, porro cupiditate sint hic corporis optio est commodi libero ea voluptatem. Odit, optio! Qui delectus pariatur, earum iusto recusandae quidem asperiores hic exercitationem ullam aperiam quae? Fugiat praesentium eaque natus?</p>
+<div class="table">
+      <table>
+        <caption>
+          <h2>Profits - By Quarter</h2>
+        </caption>
+        <thead>                  
+          <tr>                  
+            <th>Year</th>    
+            <th>1st Quarter profits</th>
+            <th>2nd Quarter profits</th>
+            <th>3rd Quarter profits</th>
+            <th>4th Quarter profits</th>
+            <th>Total</th>
+            
+          </tr>                
+            </thead>
+        <tbody>                
+          <tr>
+            <td>2012</td>         
+            <td>$1254564.32</td>
+            <td>$1154545.67</td>
+            <td>$1238566.98</td>
+            <td>$1368546.32</td>
+            <td>$5050934.29</td>
+          </tr>
+          <tr class="even">
+            <td>2013</td>
+            <td>$125676.57</td>
+            <td>$135676.57</td>
+            <td>$185676.57</td>
+            <td>$187676.57</td>
+            <td>$560907.66</td>
+          </tr>
+          <tr>
+            <td>2014</td>
+            <td>$125676.57</td>
+            <td>$159676.57</td>
+            <td>$178676.57</td>
+            <td>$132676.57</td>
+            <td>$505676.57</td>
+          </tr>
+          <tr class="even">
+            <td>2015</td>
+            <td>$125676.57</td>
+            <td>$125676.57</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>$625676.57</td>
+          </tr>
+        </tbody>
+        <tfoot>                    
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Total</td>
+            <td>$20978976.57</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    
+      <h1 id="about">About Us</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nam veniam quidem. Nobis, corrupti ut eligendi neque accusantium officia alias laudantium aliquid quo doloribus praesentium explicabo possimus? Libero vel architecto maxime consequuntur saepe impedit reiciendis eum tenetur, maiores, temporibus modi, delectus corporis. In iste harum ducimus libero quam numquam nulla architecto atque nam quaerat expedita maxime minus quia vel incidunt suscipit dolorem, ea officia nemo sed cumque itaque enim recusandae. Maxime praesentium minus ad vero velit nemo labore provident! Voluptas consectetur similique impedit at unde, necessitatibus ad perspiciatis ullam magni eligendi iusto esse ducimus? Reiciendis labore voluptatibus autem corrupti. Est tempore illo, aliquam voluptates necessitatibus ea possimus. Perspiciatis, facilis rem! Rem, quibusdam quae dolor quo officia esse nam totam ab voluptas accusantium a enim quaerat voluptatum natus cumque temporibus eum beatae dicta. Ipsam maiores animi reiciendis necessitatibus amet iusto voluptate temporibus, accusantium distinctio! Id nihil recusandae distinctio sunt molestias laudantium soluta aspernatur magni rem. Impedit, quis, eligendi possimus officiis animi debitis aliquam incidunt voluptatum ut neque in facilis, dolor quae nihil tempore optio? Suscipit aliquid iure enim doloremque perferendis ducimus! Itaque asperiores nesciunt recusandae voluptate rerum maxime reiciendis necessitatibus harum. Odio eos iste neque architecto, quidem maiores rem rerum delectus quia ducimus molestiae odit reprehenderit temporibus possimus quod, cumque culpa vero quas, veniam quam beatae voluptatibus. Alias fuga ipsam dolores voluptas explicabo harum ad corporis consequatur nobis? Pariatur optio error, cumque sapiente reprehenderit eius facilis repellat animi deleniti recusandae doloremque eligendi consequatur dolor, repellendus impedit temporibus in eveniet laudantium dolorum ut similique! Natus rerum, aspernatur maxime repellendus ullam iste consequuntur vitae ut repudiandae maiores adipisci incidunt distinctio voluptate quod eos ipsum unde aliquam doloremque praesentium quaerat culpa saepe ex temporibus? Architecto quibusdam ea doloremque accusantium enim nobis, illo dolorem iusto quaerat ipsam eius fugiat fuga ex magni asperiores repudiandae amet placeat voluptatem autem cum reprehenderit tenetur. Pariatur obcaecati consequuntur perspiciatis adipisci at. Maiores temporibus explicabo eum officia. Saepe est maxime consectetur quae nemo quam cum, reprehenderit facere perspiciatis nostrum dicta quidem tenetur. Quas culpa voluptatem officia, iste sunt excepturi. Sunt debitis delectus similique animi laudantium placeat. Est corporis officia repudiandae saepe magnam sed ratione incidunt deserunt mollitia, aperiam cum maxime, omnis, ad odit perferendis? Nobis, at tempore pariatur nam vero quod perferendis aliquid asperiores, in ut iste aliquam laboriosam minima odit suscipit ex quam! Aliquam est libero odit a, fuga harum exercitationem, reiciendis quod porro nam debitis cupiditate dolorum suscipit dicta omnis autem voluptatum sequi doloribus. Eligendi quisquam dolores omnis assumenda sit animi magni eos molestiae nam voluptas inventore tempora doloremque quia quas reprehenderit, totam, adipisci id ullam quidem accusamus maiores. Atque commodi temporibus accusamus dolor optio esse, architecto modi dignissimos repellendus autem quas maxime culpa ipsum!</p>
+</body>
+</html>
