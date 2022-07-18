@@ -1,0 +1,12 @@
+.5 no footer
+.5 no red in hovered links
+ .5 products not laid out in row
+1 no vertical lines between products
+ 1  product name not centered
+.5 no image for video
+.5 no text below products
+.5 no shadow on input forms
+.5 each box doesnt always get own line
+.5 table doesnt scroll
+
+TOTAL: 6 pts missing
